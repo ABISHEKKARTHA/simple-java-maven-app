@@ -21,11 +21,6 @@ pipeline {
                 echo "testing testing testing"
             }
         }
-        stage('Deliver') {
-            steps {
-                echo 'Job Complete'
-            }
-        }
         stage('Deliver22') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
