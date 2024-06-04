@@ -27,7 +27,7 @@ set -x
 echo "NAME: ${NAME}"
 echo "VERSION: ${VERSION}"
 
-ls -l target/*.jar
+ls -l target/*.jar | grep name
 
 
 java -jar target/"${NAME}"-"${VERSION}".jar
