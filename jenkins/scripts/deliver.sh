@@ -27,7 +27,7 @@ set -x
 echo "NAME: ${NAME}"
 echo "VERSION: ${VERSION}"
 
-ls -l target/${NAME}-${VERSION}.jar
+ls -l target/*.jar
 
 
-java -jar target/${NAME}-${VERSION}.jar
+java -jar target/"${NAME}"-"${VERSION}".jar
